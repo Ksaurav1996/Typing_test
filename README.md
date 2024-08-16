@@ -1,5 +1,4 @@
 # Typing_test
-# Typing Speed Test
 
 ## Overview
 
