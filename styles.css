@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+html{
+  background: #212121;
+}
+
+body{
+  /* font-family: 'Source Code Pro', monospace; */
+  font-family: "Poppins", sans-serif;
+  background: #eee9e9;
+background-color: #74EBD5;
+background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
+color: #52575d;
+}
+
+a{
+  color: #52575d;
+}
+.yellow{
+  /* color: #8e927a; */
+  color: yellow;
+}
+.correct{
+  color: green;
+}
+.wrong{
+  color: #e84545;
+  text-decoration: underline;
+}
+.current{
+  color: #eeeeee;
+}
+.center{
+  text-align: center;
+}
+.if{
+  display: inline-flex;
+}
+
+.box {
+  max-width: 900px;
+  padding: 0 30px;
+}
+
+/* #heading{
+  align-self: left;
+  margin-top: 20px;
+  font-size: 2rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+} */
+#heading {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem; /* Larger font size for prominence */
+  font-weight: 700; /* Bold text for emphasis */
+  background: linear-gradient(90deg, #FF6F61, #FF9A8B); /* Gradient from coral to light pink */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+  margin-top: 40px; /* Space above the heading */
+  text-align: center; /* Center align the heading */
+  transition: transform 0.3s, color 0.3s; /* Smooth transition effects */
+}
+
+.limits-box{
+  text-align: right;
+  margin: 32px 35px 0 0 ;
+  font-size: 25px;
+}
+
+.stats{
+  margin: 15px auto 20px auto;
+}
+
+.details{
+  font-size: 6rem;
+}
+.stat-block{
+  padding: auto 30px;
+  min-width: 250px;
+}
+
+@media(max-width: 600px){
+  .details{
+    font-size: 5rem;
+  }
+  .stat-block{
+    min-width: 0;
+  }
+}
+
+.stat-name{
+  font-size: 1rem;
+  position: relative;
+  top: 60px;
+  right: 5px;
+}
+
+.text-display{
+  margin: 0 0 22px 0;
+  font-size: 21px;
+  text-align: left;
+  min-height: 200px;
+}
+
+input:focus, textarea:focus, select:focus, a:focus{
+  outline: 0 ;
+}
+a:focus,a:hover{
+  color: #ffd369;
+  text-decoration: none;
+}
+
+footer{
+  padding: 20px;
+  font-size: 15px;
+}
+
+.restart-button{
+  padding: 10px;
+}
+.restartBtn{
+  color:blueviolet;
+}
+
+textarea{
+  /* background: #212121; */
+  background: whitesmoke;
+  border: solid, skyblue;
+  border-width: 2px;
+  border-radius: 10px;
+  color: black;
+  padding: 10px;
+  font-size: 1.2rem;
+  resize: none;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.restart-button {
+  padding: 12px;
+  border-radius: 50%;
+  background: linear-gradient(145deg, #007bff, #0056b3); /* Professional gradient from blue to dark blue */
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2), -4px -4px 8px rgba(255, 255, 255, 0.3); /* Soft shadow */
+  transition: background 0.3s, transform 0.3s; /* Smooth transitions */
+}
+
+.restart-button:hover,
+.restart-button:focus {
+  background: linear-gradient(145deg, #0056b3, #003d7a); /* Darker gradient on hover */
+  transform: scale(1.05); /* Slightly enlarge button on hover */
+}
+
+.restart-button i {
+  color: #ffffff; /* White icon color for contrast */
+  font-size: 1.5rem; /* Adjust icon size */
+}
+
+.limit a {
+  margin-right: 20px; /* Add space between links */
+}
+
+.limit a:last-child {
+  margin-right: 0; /* Remove margin for the last link to avoid extra space */
+}
